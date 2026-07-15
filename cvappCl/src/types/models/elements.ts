@@ -36,9 +36,9 @@ export interface PhotoElement extends BaseElement, Typography {
 //.................... Shapes & Icons...................//
 
 interface ShapeStyle {
-    file: string;
+    fill: string;
     stroke: string;
-    strokeWidth: string
+    strokeWidth: number;
 }
 
 export interface RectangleElement extends BaseElement, ShapeStyle {
